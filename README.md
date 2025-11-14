@@ -10,7 +10,7 @@ A command line book search tool written in Java that uses an inverted index to s
 - Allows users to add ratings through an interactive command line interface
 - Includes JUnit tests for rating logic, average rating, index construction, and term handling
 
-## How it works
+## How It Works
 
 Book files are stored in the books directory.
 Each file contains a title line, an author line, and the remaining content of the book.
