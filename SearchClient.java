@@ -1,7 +1,5 @@
 import java.io.*;
 import java.util.*;
-// Name: TODO
-// Date: TODO
 
 // This class allows users to find and rate books within BOOK_DIRECTORY
 // containing certain terms
@@ -39,7 +37,6 @@ public class SearchClient {
         System.out.println("See you next time!");
     }
 
-    // TODO: Paste createIndex implementation & comment
     public static Map<String, Set<Media>> createIndex(List<Media> docs) {
         Objects.requireNonNull(docs, "docs cannot be null");
 
@@ -67,7 +64,6 @@ public class SearchClient {
         return index;
     }
 
-    // TODO: Write and document your search method here
     public static Set<Media> search(Map<String, Set<Media>> index, String query) {
         Objects.requireNonNull(index, "index cannot be null");
         Objects.requireNonNull(query, "query cannot be null");
