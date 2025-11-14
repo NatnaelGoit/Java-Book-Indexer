@@ -1,29 +1,24 @@
-Project Title
-
 Java Book Search Engine
 
-Description
-
-A lightweight search engine built in Java using an inverted index to index book documents and retrieve results by token. Supports rating, ranking, and CLI-based interaction.
+A lightweight Java search engine that builds an inverted index over a collection of book files and supports searching and rating through a command line interface.
 
 Features
 
-Inverted index construction
+Inverted index for fast token based lookup
 
-Document ingestion from filesystem
+Multi term search with case insensitive matching
 
-Query parsing with deduplication
+Sorted results using rating and popularity
 
-Sorted results using Comparable and TreeSet
+File ingestion from a book directory
 
-Book rating system with formatted output
-
-JUnit test suite
+JUnit test suite for rating and indexing logic
 
 Technologies
+Java • JUnit • File I O • Java Collections Framework
 
-Java
-JUnit
-Java Collections Framework
-TreeMap, HashSet, Comparable
-File I/O
+Usage
+Compile the source files and run the main client program. Place book files in the books directory using the format: title, author, content.
+
+Structure
+Source code is organized into indexing, searching, data modeling, and test components.
